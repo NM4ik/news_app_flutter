@@ -92,12 +92,6 @@ class _NewsScreenState extends State<NewsScreen> {
                     'Новости',
                     style: Theme.of(context).textTheme.headline1,
                   ),
-                  // TextButton(
-                  //     onPressed: () => set,
-                  //     child: Text(
-                  //       'фильтры',
-                  //       style: Theme.of(context).textTheme.headline2!.copyWith(color: AppColors.greyTextColor),
-                  //     )),
                   PopupMenuButton<MenuItem>(
                       icon: const Icon(
                         Icons.filter_list_rounded,
